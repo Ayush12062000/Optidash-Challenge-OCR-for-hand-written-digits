@@ -41,21 +41,25 @@ The learning curves obtained from the training on the dataset can be seen below.
 
 The observations during the training process are:
 
-The highest valued results during the training were obtained at Epoch 3 as I cancelled training my model after it has reached 98% accuracy with following specifications:
+The highest valued results during the training were obtained at Epoch :
 
-Training accuracy   - 0.9824 
+Training accuracy   - 0.9982 
 
-Validation accuracy - 0.9903
+Validation accuracy - 0.9945
 
-Training Loss       - 0.0572
+Training Loss       - 0.0066
 
-Validation Loss     - 0.0303
+Validation Loss     - 0.0197
 
-According to the theory and observation from the Learning rate graphs, we can comment that the optimum and satisfactory results for the model had been obtained. 
+According to the theory and observation from the Learning rate graphs, we can comment that the optimum and satisfactory results for the model had been obtained at Epoch 64:
 
+Training accuracy   - 0.9964
 
-"NOTE:- Accuracy will reach more than 99.5% on futher epochs. In order to save time and resources we stopped training our model after it has reached 98% accuracy."
+Validation accuracy - 0.9938
 
+Training Loss       - 0.0119
+
+Validation Loss     - 0.0221
 
 Now, for testing the trained Classifier we will be using the "test_classifier.py" or "test_classifier.ipynb" In this code the confusion matrix and the classification report were obtained for the trained model on the test dataset. The test dataset was also pre_processed. The following are the screenshots of these observations.
 
