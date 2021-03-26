@@ -2,9 +2,20 @@
 - An implementation of an OCR for hand-written text  
 - The algorithm takes a single file as input (JPEG, PDF) and returns all hand-written text (mostly digits) found and recognized on that input. 
 
-"Note: This is the edits from the branch DV by dv-123 for the Optidash buddy Challange. Main goal for this challange is to make a Digit Recogonizer and I will be following the approach of using CNN and MLP model with some hyperparameter tunings to train the classifier. Training dataset for this part will be the MNIST dataset from the kaggle Digit Recogonizer Challange."
+"Note: Main goal for this challange is to make a Digit Recogonizer and I will be following the approach of using CNN and MLP model with some hyperparameter tunings to train the classifier. Training dataset for this part will be the MNIST dataset from the kaggle Digit Recogonizer Challange."
 
 The presented code is a simple implementation of Convolutional Neural Network (CNN) for training a MNIST digit classifier.
+
+CNN extracts the features of image and converts it into lower dimension without loosing its characteristics. 
+The convolution layer and the pooling layer can be fine-tuned with respect to hyperparameters.
+
+Input Layer - Input Layer in CNN should contain image data.Image data is represented by three dimensional matrix and needs reshaping into single column.
+
+Convo Layer - Convo layer is sometimes called feature extractor layer because features of the image are get extracted within this layer. Result of the operation is single integer of the output volume. Convo layer also contains ReLU activation to make all negative value to zero.
+
+Pooling Layer - Pooling layer is used to reduce the spatial volume of input image after convolution. It is used between two convolution layer. 
+
+![](disp_images/Image_9.PNG)
 
 Framework used and Dependencies
 - Tensorflow - Keras
@@ -63,5 +74,3 @@ And following is the visual representation of of the Test dataset that is classi
 ![](disp_images/Image_7.PNG)
 
 ![](disp_images/Image_8.PNG)
-
-"Note: More cleaning and explanation of the code with upgradation of the README.md is remaining if required"
