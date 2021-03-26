@@ -35,9 +35,9 @@ The summary of the model built can be seen below:
 
 The learning curves obtained from the training on the dataset can be seen below.
 
-![accuracy](https://user-images.githubusercontent.com/57597700/112594890-989d8800-8e2f-11eb-9184-9be0da545d80.jpg)
+![](disp_images/Image_2.PNG)
 
-![Loss](https://user-images.githubusercontent.com/57597700/112594683-4d837500-8e2f-11eb-9d9e-b9e0d1fbd5c4.jpg)
+![](disp_images/Image_3.PNG)
 
 The observations during the training process are:
 
@@ -59,9 +59,9 @@ According to the theory and observation from the Learning rate graphs, we can co
 
 Now, for testing the trained Classifier we will be using the "test_classifier.py" or "test_classifier.ipynb" In this code the confusion matrix and the classification report were obtained for the trained model on the test dataset. The test dataset was also pre_processed. The following are the screenshots of these observations.
 
-![confusion](https://user-images.githubusercontent.com/57597700/112595971-2b8af200-8e31-11eb-824d-2229b6cb76f9.jpg)
+![](disp_images/Image_4.PNG)
 
-![report](https://user-images.githubusercontent.com/57597700/112596003-33e32d00-8e31-11eb-8612-1212d1c4143d.jpg)
+![](disp_images/Image_5.PNG)
 
 
 And following is the visual representation of of the Test dataset that is classified and It's original label and predicted lable.
